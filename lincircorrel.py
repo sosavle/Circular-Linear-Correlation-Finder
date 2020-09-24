@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 ''' 
 This script plots and calculates circular-linear correlations between
 all possible combinations of circular variables x and linear variables y 
@@ -176,7 +178,8 @@ def read_input(datafile, degrees=True):
     
 
 if __name__ == "__main__":
-
+    print('ass')
+    quit()
     # Get input file location
     if len(sys.argv) < 2:
         datafile = input("Please input the filepath of the .csv file you wish to analyze: ")
